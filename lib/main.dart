@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets.dart/text_widgets/rich_text.dart';
+
+import 'package:widgetsflutter/basic_widgets.dart/text_widgets/text.rich.dart';
 
 
 
@@ -16,6 +17,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-       home: const RichTextWidget());
+       home: const TextdotRichWidget());
   }
 }
