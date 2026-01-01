@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets.dart/container_widgtets/container_styles.dart';
+import 'package:widgetsflutter/basic_widgets.dart/column_widget/column_widget.dart';
+
 
 
 
@@ -19,6 +20,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-       home: const ContainerStyles());
+       home: const ColumnWidget());
   }
 }
