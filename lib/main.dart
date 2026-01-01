@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets.dart/text_widgets/default_text_style.dart';
+
+import 'package:widgetsflutter/basic_widgets.dart/text_widgets/text_span.dart';
 
 
 
@@ -14,6 +15,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-       home: const DefaultTextStyles());
+       home: const TextSpanWidget());
   }
 }
