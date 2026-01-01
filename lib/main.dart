@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets.dart/container_widgtets/container_widget.dart';
+import 'package:widgetsflutter/basic_widgets.dart/container_widgtets/container_styles.dart';
+
 
 
 
@@ -18,6 +19,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-       home: const ContainerWidget());
+       home: const ContainerStyles());
   }
 }
