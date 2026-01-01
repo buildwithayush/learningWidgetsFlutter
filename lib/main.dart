@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets.dart/text_widgets/textwidget.dart';
+import 'package:widgetsflutter/basic_widgets.dart/text_widgets/style_text_widgets.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +11,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: TextWidget());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+       home: const StyleTextWidgets());
   }
 }
