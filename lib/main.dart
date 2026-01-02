@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets/expanded_flexible/expanded_widget.dart';
+import 'package:widgetsflutter/basic_widgets/expanded_flexible/flexible_widget.dart';
 
 
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const ExpandedWidget(),
+      home: const FlexibleWidget(),
     );
   }
 }
