@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets/flex_widget/flex_widget.dart';
+import 'package:widgetsflutter/basic_widgets/center_widget/center_widget.dart';
+
 
 
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const FlexWidget(),
+      home: const CenterWidget(),
     );
   }
 }
