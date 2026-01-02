@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets/card_widget/card_widget.dart';
+import 'package:widgetsflutter/basic_widgets/sizedbox_widget/sizedbox_widget.dart';
 
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const CardWidget(),
+      home: const SizedBoxWidget(),
     );
   }
 }
