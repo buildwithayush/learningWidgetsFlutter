@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets/placeholder_widget.dart/placeholder_widget.dart';
+import 'package:widgetsflutter/common_widget/appbar_widget/appbar_widget.dart';
 
 
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const PlaceholderWidget(),
+      home: const AppbarWidget(),
     );
   }
 }
