@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/basic_widgets/singlechildscrlview_widget/singlechildscrlview.dart';
+import 'package:widgetsflutter/basic_widgets/padding_widget/padding_widget.dart';
+
 
 
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const SingleChildScrollViewWidget(),
+      home: const PaddingWidget(),
     );
   }
 }
