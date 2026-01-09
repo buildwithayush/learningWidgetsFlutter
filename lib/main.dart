@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/common_widget/image_widget/image_widget.dart';
-
+import 'package:widgetsflutter/common_widget/elevated_button_widget/elevated_button_widget.dart';
 
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const ImageWidget(),
+      home: const ElevatedButtonWidget(),
     );
   }
 }
