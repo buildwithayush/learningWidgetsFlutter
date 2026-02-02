@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgetsflutter/common_widget/iconbutton_widget/iconbutton_widget.dart';
+import 'package:widgetsflutter/floatingactionbutton_widget/floatingactionbutton_widget.dart';
 
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const IconbuttonWidget(),
+      home: const FloatingActionButtonWidget(),
     );
   }
 }
